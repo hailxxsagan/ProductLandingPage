@@ -1,4 +1,8 @@
 
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 header {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -21,6 +25,10 @@ header {
 a {
     color: white;
     text-decoration: none;
+}
+
+a:hover {
+    color: grey;
 }
 
 footer {
@@ -65,9 +73,7 @@ button {
     display: flex;
     justify-content: center;
     margin: 50px;
-    text-align: center;
     color: grey;
-    align-items: center;
     padding-bottom: 50px;
 }
 
@@ -77,22 +83,28 @@ button {
 
 .text {
     display: flex;
-    align-content: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding-right: 10px;
 }
 
 .container2 img {
     display: flex;
     max-width: 200px;
     justify-content: center;
+    border: 1px;
+    border-radius: 5px;
+    padding-bottom: 5px;
 }
 
+.container2 img:hover {
+    opacity: 50%;
+}
 
 .random {
     display: flex;
     justify-content: center;
     font-size: 30px;
-    margin-top: 50px;
+    margin-top: 70px;
     font-weight: bold;
 }
 
@@ -104,6 +116,7 @@ img {
     margin-top: 50px;
     margin-left: 20px;
     border: 5px solid white;
+    border-radius: 5px;
 }
 
 .group {
