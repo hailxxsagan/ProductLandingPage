@@ -1,12 +1,12 @@
 
-
 header {
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 20px;
-    width: 100%;
     font-size: 24px;
-
+    display: flex;
+    padding-left: 200px;
+    margin: 0px;
 }
 
 a {
@@ -18,15 +18,16 @@ footer {
     background-color: #1F2937;
     color: white;
     text-align: center;
-    width: 100%;
 }
 
 .nav {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     gap: 20px;
     font-size: 18px;
     color: #F9FAF8;
+    margin-left: 640px;
 }
 
 .dark-blue {
@@ -37,7 +38,11 @@ footer {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    padding-bottom: 50px;
+    align-items: center;
+    align-content: center;
 }
+
 
 button {
     background-color: #3882F6;
@@ -45,6 +50,7 @@ button {
     border: 0px;
     padding: 5px;
     color: #F9FAF8;
+    border-radius: 15px;
 }
 
 .container {
@@ -60,12 +66,79 @@ img {
     max-width: 350px;
     max-height: 250px;
     display: flex;
-    margin: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-left: 20px;
+    border: 5px solid white;
 }
 
 .group {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 100px;
+    margin-left: 200px;
+    padding-right: 50px;
+}
+
+.aboutdogs {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.thebest {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.grey {
+    background-color: #E5E7Eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 100px;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.boxtext {
+    margin: 30px;
+    display: flex;
+    color: #E5E7Eb;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#call {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.button2 {
+    border: 1px solid;
+    border-color: #E5E7Eb;
+    border-radius: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+footer {
+    padding: 30px;
 }
