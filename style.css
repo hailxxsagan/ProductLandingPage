@@ -4,9 +4,18 @@ header {
     color: #F9FAF8;
     padding: 20px;
     font-size: 24px;
-    display: flex;
-    padding-left: 200px;
     margin: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 180px;
+    padding-left: 190px;
+}
+
+#title {
+    font-weight: bold;
 }
 
 a {
@@ -18,16 +27,15 @@ footer {
     background-color: #1F2937;
     color: white;
     text-align: center;
+    padding: 30px;
 }
 
 .nav {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     gap: 20px;
     font-size: 18px;
     color: #F9FAF8;
-    margin-left: 640px;
 }
 
 .dark-blue {
@@ -53,13 +61,39 @@ button {
     border-radius: 15px;
 }
 
-.container {
+.container2 {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+    text-align: center;
+    color: grey;
+    align-items: center;
+    padding-bottom: 50px;
 }
 
-.white {
+.info {
+    max-width: 250px;
+}
 
+.text {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container2 img {
+    display: flex;
+    max-width: 200px;
+    justify-content: center;
+}
+
+
+.random {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: bold;
 }
 
 img {
@@ -90,6 +124,7 @@ img {
     padding-bottom: 10px;
 }
 
+
 .grey {
     background-color: #E5E7Eb;
     font-size: 36px;
@@ -109,7 +144,7 @@ img {
 .blue-box {
     background-color: #3882F6;
     border-radius: 10px;
-    margin: 200px;
+    margin: 150px;
     padding-left: 20px;
     padding-right: 20px;
     display: flex;
@@ -137,8 +172,4 @@ img {
     border-radius: 5px;
     padding-right: 5px;
     padding-left: 5px;
-}
-
-footer {
-    padding: 30px;
 }
